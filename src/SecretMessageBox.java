@@ -4,9 +4,10 @@ import javax.swing.Popup;
 public class SecretMessageBox {
 	public static void main(String[] args) {
 		String passcode = "Loading...";
+		String guess =  "";
 		String message =  JOptionPane.showInputDialog(null, "Type the secret message");
-		passcode = JOptionPane.showInputDialog(" what's the password ");
-		if (passcode.equalsIgnoreCase(passcode)) {
+		guess = JOptionPane.showInputDialog(" what's the password ");
+		if (guess.equalsIgnoreCase(passcode)) {
 			JOptionPane.showMessageDialog(null, message);}
 		
 	else 
