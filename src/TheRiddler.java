@@ -28,7 +28,8 @@ public class TheRiddler {
 			else
 				JOptionPane.showMessageDialog(null, "loading..");
 		
-	JOptionPane.showMessageDialog(null, "you scored..")+score;
+	JOptionPane.showMessageDialog(null, "you're scored.."+ score);
+	
 	}
 	
 }
